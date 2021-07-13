@@ -1,9 +1,18 @@
 import React from 'react'
 
- function App() {
+import Body from './components/Body';
+import Navabar from './components/Navabar';
+import Footer from './components/Footer';
+
+function App() {
   return (
+
     <div>
-      
+
+    <Navabar />
+    <Body   />
+    <Footer />
+    
     </div>
   )
 }
